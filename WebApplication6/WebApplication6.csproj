@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b5ca68b7-788d-410a-9d15-d67e90b4882e</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/09041f17-aace-4194-9d32-bde59a5c0562/resourceGroups/POC/providers/microsoft.insights/components/ImageVerification</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
